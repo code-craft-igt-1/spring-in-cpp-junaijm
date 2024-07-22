@@ -4,6 +4,7 @@ project(spring-in-cpp-sudeeprp)
 # GoogleTest requires at least C++14
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_COMPILE_WARNING_AS_ERROR ON)
 
 include(FetchContent)
 FetchContent_Declare(
