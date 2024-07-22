@@ -7,9 +7,9 @@ namespace Statistics
         Stats stats;
         if(readings.empty())
         {
-            stats.average = std::numeric_limits<double>::quiet_NaN();
-            stats.max = std::numeric_limits<double>::quiet_NaN();
-            stats.min = std::numeric_limits<double>::quiet_NaN();
+            stats.average = NAN;
+            stats.max = NAN;
+            stats.min = NAN;
         }
         else
         {
